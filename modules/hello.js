@@ -1,7 +1,11 @@
 module.exports = function(msg) {
-  return ({
-    chat_id:msg.chat.id,
-    text:'Good morning',
-    parse_mode:'Markdown'
+  return new Promise(function(accept, reject) {
+    accept({
+      chat_id:msg.chat.id,
+      text:'Good morning',
+      options: {
+        parse_mode:'Markdown'
+      }
+    });
   });
 }
