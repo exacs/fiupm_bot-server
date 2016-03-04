@@ -1,0 +1,19 @@
+{
+  "name": "fiupm_bot-server",
+  "version": "0.0.1",
+  "description": "Servidor del Bot de la FI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Saito",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/exacs/fiupm_bot-server"
+  }
+}
