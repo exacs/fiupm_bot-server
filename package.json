@@ -17,5 +17,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/exacs/fiupm_bot-server"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.1"
   }
 }
