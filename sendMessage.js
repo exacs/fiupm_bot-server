@@ -1,6 +1,6 @@
 const https   = require('https');
 const host    = 'api.telegram.org';
-const token   = '188448037:AAEwnjvVR33NVBdH1QBDSl2wjrDKzMTWSQM';
+const token   = `${process.env.TELEGRAM_KEY}:${process.env.TELEGRAM_SECRET}`;
 const request = '/sendMessage';
 
 module.exports = function sendMessage(message) {
