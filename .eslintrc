@@ -3,6 +3,7 @@
 {
   "extends": "airbnb",
   "rules" : {
-  	"no-multi-spaces": [2, { exceptions: { "VariableDeclarator": true } }]
+  	"no-multi-spaces": [2, { exceptions: { "VariableDeclarator": true } }],
+  	"strict": [0]
   }
 }

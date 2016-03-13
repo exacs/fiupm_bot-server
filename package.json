@@ -4,14 +4,16 @@
   "description": "Servidor del Bot de la FI",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape -r babel-register test/**/*.js | faucet",
     "start": "node --use_strict index.js"
   },
   "author": "Carlos Saito",
   "license": "ISC",
   "dependencies": {
+    "babel-register": "^6.7.2",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
+    "faucet": "0.0.1",
     "request": "^2.69.0"
   },
   "repository": {
@@ -22,6 +24,7 @@
     "babel-eslint": "^5.0.0",
     "eslint": "^2.3.0",
     "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.1"
+    "eslint-plugin-react": "^4.2.1",
+    "tape": "^4.5.1"
   }
 }
