@@ -1,11 +1,7 @@
-module.exports = function hello(msg) {
+'use strict';
+
+module.exports = function hello() {
   return new Promise((accept /* , reject*/) => {
-    accept({
-      chat_id: msg.chat.id,
-      text: 'Good morning',
-      options: {
-        parse_mode: 'Markdown',
-      },
-    });
+    accept('Good morning');
   });
 };
