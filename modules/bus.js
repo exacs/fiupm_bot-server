@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Comprueba el tiempo restante de los buses más cercanos a la FI
  */
@@ -23,7 +25,7 @@ function toStr(arr, lines) {
 
 
 module.exports = function bus() {
-  return new Promise((accept /* , reject*/) => {
+  return new Promise((accept, reject) => {
     let count = 0;
     const result = [];
 
@@ -34,6 +36,11 @@ module.exports = function bus() {
 
     [dir1, dir2, dir3].forEach((dir, i) => {
       request(dir, (error, response, body) => {
+        if (error || parseInt(response.statusCode, 10) !== 200) {
+          reject(`Error ${response.statusCode}`);
+        }
+
+
         const data = JSON.parse(body).lines.map(
           b => ({ line: b.lineNumber, time: convertWaitTime(b.waitTime) })
         ).filter(
