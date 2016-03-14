@@ -4,6 +4,8 @@
 # Bot (no oficial) de la FIUPM para Telegram
 Un *sencillo* bot de Telegram con cosas útiles para los alumnos de la ETSIINF-UPM.
 
+Pruébalo en telegram: [@fiupm_bot](https://telegram.me/fiupm_bot)
+
 ## Participar
 Existen varias maneras de contribuir con esta aplicación.
 
@@ -11,7 +13,7 @@ Existen varias maneras de contribuir con esta aplicación.
 * Mejorar el código.
 * Aportar ideas: errores y/o comandos
 
-[Consulta el Planificador de la aplicación](https://hub.jazz.net/project/exacs/fiupm_bot-server/track)
+[Consulta el Planificador de la aplicación](https://github.com/exacs/fiupm_bot-server/issues)
 
 ## Mini-guía de desarrollo
 El núcleo de la aplicación consta de las siguientes partes:
