@@ -1,0 +1,18 @@
+{
+  "name": "fiBOT",
+  "description": "Servidor preparado para recibir mensajes de Telegram y ejecutar una serie de comandos",
+  "repository": "https://github.com/exacs/fiupm_bot-server",
+  "keywords": ["node", "express", "telegram", "bot"],
+  "env": {
+    "TELEGRAM_KEY": {
+      "description": "Identificador del Bot de telegram.",
+      "value": "Escribe aquí la parte del token que va ANTES del ':'",
+      "required": true
+    },
+    "TELEGRAM_SECRET": {
+      "description": "Clave secreta del Bot de telegram.",
+      "value": "Escribe aquí la parte del token que va DESPUÉS del ':'",
+      "required": true
+    }
+  }
+}
