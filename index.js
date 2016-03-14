@@ -2,8 +2,8 @@
 
 const express     = require('express');
 const bodyParser  = require('body-parser');
-const router      = require('./router.js');
-const sendMessage = require('./sendMessage.js');
+const router      = require('./core/router.js');
+const sendMessage = require('./core/sendMessage.js');
 
 const app = express();
 

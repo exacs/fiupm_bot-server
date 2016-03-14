@@ -1,5 +1,5 @@
 const commandList = [
-  { c: ['bus'], a: require('./modules/bus.js') },
+  { c: ['bus'], a: require('../modules/bus.js') },
 ];
 
 /**
