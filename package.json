@@ -4,7 +4,7 @@
   "description": "Servidor del Bot de la FI",
   "main": "index.js",
   "scripts": {
-    "test": "tape -r babel-register test/**/*.js | faucet",
+    "test": "tape -r babel-register core-test/**/*.js modules-test/**/*.js | faucet",
     "start": "node --use_strict index.js"
   },
   "author": "Carlos Saito",
