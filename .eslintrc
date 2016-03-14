@@ -4,6 +4,7 @@
   "extends": "airbnb",
   "rules" : {
   	"no-multi-spaces": [2, { exceptions: { "VariableDeclarator": true } }],
-  	"strict": [0]
+  	"strict": [0],
+  	"no-console": [0]
   }
 }
