@@ -2,5 +2,3 @@ language: node_js
 sudo: true
 node_js:
   - "5"
-  - "4.1"
-  - "4.0"
